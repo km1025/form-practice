@@ -5,6 +5,16 @@
   background-color: #cff1ff;
 }
 
+input,select,button{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
 .inner{
   margin: 0 auto;
   width: 600px;
@@ -46,6 +56,10 @@
   color: #464646;
 }
 
+.is-flex{
+  display: flex;
+}
+
 .required{
   color: #e40000;
 }
@@ -54,3 +68,8 @@
   width: 100px;
   height: 35px;
 }
+
+
+
+
+.link
