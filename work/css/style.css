@@ -103,7 +103,7 @@ input,select,button{
   position: absolute;
   width: 5px;
   height: 5px;
-  right: 5px;
+  right: 10px;
   top: 45%;
   display: inline-block;
   border-bottom: 2px solid #c3c3c3;
@@ -138,6 +138,7 @@ input,select,button{
   border-radius: 50px;
   transform: translateY(-50%);
 }
+
 .gender-checkbox:checked + span:after{
   content: "";
   position: absolute;
@@ -155,7 +156,7 @@ input,select,button{
   padding-left: 25px;
 }
 
-.subscription-label::before{
+.subscription-label:before{
   content: "";
   position: absolute;
   top: 50%;
@@ -167,7 +168,6 @@ input,select,button{
   background: #ffffff;
 }
 
-}
 .subscription-unit input:checked + .subscription-label:after{
   content: "";
   position: absolute;
@@ -176,8 +176,8 @@ input,select,button{
   width: 6px;
   height: 13px;
   margin-top: -11px;
-  border-right: 3px solid #0140bf;
-  border-bottom: 3px solid #0140bf;
+  border-right: 3px solid#0140bf;
+  border-bottom: 3px solid#0140bf;
   transform: rotate(45deg);
 }
 
